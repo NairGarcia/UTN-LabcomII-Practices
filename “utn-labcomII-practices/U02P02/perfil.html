@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+</head>
+
+<body>
+
+    <h1>Datos de los estudiantes de la UTN</h1>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <form>
+            <label for="Estudiante"></label>
+            <input type="text" id="Estudiante" name="Estudiante" required value="ESTUDIANTE">
+            <br>
+            <p>A continuación ingrese los siguientes datos</p>
+            <br>
+            <label for="Nombre Completo">Nombre y Apellido</label>
+            <input type="text" id="Nombre Completo" name="Nombre Completo">
+            <br>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email">
+            <br>
+            <label for="Edad">Edad Actual</label>
+            <input type="number" id="Edad" name="Edad">
+            <br>
+            <label for="Nacionalidad">Nacionalidad</label>
+            <select name="Nacionalidad" id="Nacionalidad">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+            </select>
+            <br>
+            <label for="Ocupación">Ocupación</label>
+            <select name="Ocupación" id="Ocupación">
+                <option value="Desempleado">Desempleado</option>
+                <option value="En búsqueda laboral">En búsqueda laboral</option>
+                <option value="Trabajo part time">Trabajo part-time</option>
+                <option value="Trabajo full time">Trabajo full-time</option>
+            </select>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Gustos Personales</legend>
+        <form>
+            <label for="Gustos musicales">Gustos musicales</label>
+            <input type="text" id="Gustos musicales" name="Gustos musicales">
+            <br>
+            <label for="Comidas preferidad">Comidas Preferidas</label>
+            <select name="Comidas" id="Comidas">
+                <option value="Comida chatarra">Comida chatarra</option>
+                <option value="Comida Vegana">Comida Vegana</option>
+                <option value="Comida vegetariana">Comida vegetariana</option>
+                <option value="Todas las anteriores">Todas las anteriores</option>
+            </select>
+            <br>
+            <label for="Recordar datos">Recordar los datos</label>
+            <input type="checkbox" id="Recordar datos" name="Recordar datos">
+            <br><br>
+            <input type="submit" value="Enviar formulario">
+        </form>
+        
+    </fieldset>
+</body>
+
+</html>
